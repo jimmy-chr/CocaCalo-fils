@@ -198,6 +198,11 @@ header .navigation li a {
     header .navigation {
         display: none;
     }
+    
+    header .navigation.active {
+        display: flex;
+        flex-direction: column;
+    }
 
     header .navigation.a.toggle {
         position: fixed;
